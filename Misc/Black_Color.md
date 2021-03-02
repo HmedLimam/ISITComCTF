@@ -9,7 +9,7 @@ new_pixels = new.load()
 for i in data:
     new_pixels[i[0],i[1]] = (0,0,0)
 
-new.save("flag.png")
+new.save("misc.png")
 ```
 
 ![](../Rev/images/misc.png)
