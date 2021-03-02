@@ -1,6 +1,6 @@
 # The whole point is that the key used for AES encryption is randomly generated but the possibilities aren't infinite!
 # seed = random.randrange(0,256)
-# We can easily try decrypting the ciphertext with every key created from numbers from 0 up to 256.
+# We can easily try decrypting the ciphertext with every key created with numbers ranging from 0 to 256.
 
 from Crypto.Util.number import long_to_bytes
 from Crypto.Cipher import AES
