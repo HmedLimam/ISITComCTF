@@ -12,7 +12,7 @@ first_search = os.path.join(os.getcwd(), "registres", *reg).replace("secret", ""
 # The path becomes os.getcwd()/registres/a/b
 # And the other thing is replace("secret", "") and we'll be seeing why later
 ```
-The file we need is at os.getcwd()/billet_task/secret_1337_sh1t/secret_word.txt but it joins our input to os.getcwd()/registres so how can we read it?
+The file we need is at **os.getcwd()/billet_task/secret_1337_sh1t/secret_word.txt** but it joins our input to **os.getcwd()/registres** so how can we read it?
 
 **First:** We want to leave registres folder and read from billet_task but we can't use **..** because of this
 
