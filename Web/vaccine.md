@@ -6,7 +6,7 @@ First: Extract tables names
 
 ```'union select 1,name,sql from sqlite_master--```
 
-![](Rev/images/vac.png)
+![](../Rev/images/vac.png)
 
 There's a very interesting table called **s3cret_fl4g** that contains a **flag** column.
 
