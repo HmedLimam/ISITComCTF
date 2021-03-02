@@ -28,7 +28,7 @@ This is when we exploit ```.replace("secret", "")``` by giving it **..secret** i
 
 Solution: **sec**secret**ret**_1337_sh1t/**sec**secret**ret**_word.txt
 
-So our whole payload becomes ad follows:
+So our payload becomes as follows:
 
 ```["..secret", "billet_task", "secsecretret_1337_sh1t", "secsecretret_word.txt"]``` 
 
