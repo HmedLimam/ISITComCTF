@@ -1,3 +1,5 @@
+Challenge author: t0m7r00z
+
 We need to bypass this in order to execute an SQL Injection
 
 ```if re.search(".'", students_name) or students_name[0] == "'"```
