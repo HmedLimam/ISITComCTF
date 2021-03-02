@@ -1,5 +1,3 @@
-Challenge author: t0m7r00z
-
 We need to bypass this in order to execute an SQL Injection
 
 ```if re.search(".'", students_name) or students_name[0] == "'"```
@@ -17,3 +15,6 @@ re.search("inf{.*}", r.text)
 
 ```
 *inf{I_h0p3_v4cC1n3_F@R_c0V1D19_15_R3aL}*
+
+
+Challenge author: t0m7r00z
