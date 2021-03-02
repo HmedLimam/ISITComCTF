@@ -48,6 +48,8 @@ flag: inf{D0es_IM4G3S_C4me_64???}
 # Memory 6
 
 ```volatility -f image.raw --profile=Win7SP1x64 clipboard```
+
+
 ```echo aW5me0IzX2M0cmVmdWxfd2hlbl9ZMHVfQzBQeX0= | base64 -d```
 
 flag: inf{B3_c4reful_when_Y0u_C0Py}
