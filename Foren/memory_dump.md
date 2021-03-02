@@ -52,4 +52,4 @@ flag: inf{D0es_IM4G3S_C4me_64???}
 
 flag: inf{B3_c4reful_when_Y0u_C0Py}
 
-
+Challenges author: iwd
