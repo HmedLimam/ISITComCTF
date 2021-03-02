@@ -24,7 +24,7 @@ if ("/" in reg) or (".." in reg):
 This is when we exploit ```.replace("secret", "")``` by giving it **..secret** it will automatically bypass the filter and then remove "secret".
 
 
-**Second:** Now we want to read secret_1337_sh1t/secret_word.txt but the problem is that "secret" get's replaced with "".
+**Second:** Now we want to read secret_1337_sh1t/secret_word.txt but the problem is that "secret" get's replaced with "", BUT ONLY ONCE!
 
 Solution: **sec**secret**ret**_1337_sh1t/**sec**secret**ret**_word.txt
 
