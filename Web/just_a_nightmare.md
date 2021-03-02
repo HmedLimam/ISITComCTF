@@ -1,5 +1,3 @@
-Challenge author: t0m7r00z
-
 This task introduces LFI, our goal is to read this file **billet_task/secret_1337_sh1t/secret_word.txt**
 
 and we'll be doing so by exploiting this line.
@@ -47,3 +45,6 @@ with open("flag.png","wb") as file:
 ```
 
 ![](../Rev/images/flag.png)
+
+
+Challenge author: t0m7r00z
