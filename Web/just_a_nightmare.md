@@ -46,4 +46,4 @@ with open("flag.png","wb") as file:
     file.write(r.content)
 ```
 
-![](Rev/images/flag.png)
+![](../Rev/images/flag.png)
