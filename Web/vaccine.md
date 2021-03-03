@@ -1,6 +1,6 @@
 This challenge introduces SQL Injection.
 
-First: Extract tables names
+First: Extract tables names and schema
 
 ```'union select 1,name,sql from sqlite_master--```
 
