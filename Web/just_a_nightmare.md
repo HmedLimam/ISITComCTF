@@ -19,7 +19,7 @@ if ("/" in reg) or (".." in reg):
     data = "Je vois des trucs interdits ici."
 ```
 
-This is when we exploit ```.replace("secret", "")``` by giving it **..secret** it will automatically bypass the filter and then remove "secret".
+This is when we exploit ```.replace("secret", "")``` by giving it **..secret** it will first bypass the filter and then remove "secret".
 
 
 **Second:** Now we want to read secret_1337_sh1t/secret_word.txt but the problem is that "secret" gets replaced with "", BUT ONLY ONCE!
