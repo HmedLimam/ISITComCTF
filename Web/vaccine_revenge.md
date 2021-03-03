@@ -2,8 +2,6 @@ We need to bypass this in order to execute an SQL Injection
 
 ```if re.search(".'", students_name) or students_name[0] == "'"```
 
-Hint: [regexp security cheatsheet](https://github.com/attackercan/regexp-security-cheatsheet)
-
 We can bypass ```re.search(".'", students_name)``` with a new line **\n**
 
 ```python
